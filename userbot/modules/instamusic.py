@@ -1,4 +1,6 @@
 # Originally from Bothub
+# Port to UserBot by @heyworld
+
 from telethon import events
 import subprocess
 from telethon.errors import MessageEmptyError, MessageTooLongError, MessageNotModifiedError
@@ -56,3 +58,4 @@ CMD_HELP.update({
         ".song <songname>"
         "\nUsage: For searching songs.\n"
     })
+
